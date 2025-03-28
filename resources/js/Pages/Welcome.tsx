@@ -351,19 +351,19 @@ function DescubrirSection() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/kcfs1-ryKWE?autoplay=1&mute=1"
-  frameBorder="0"
-  allow="autoplay; encrypted-media"
-  allowFullScreen
-></iframe>
+      {/* Video de YouTube */}
+      <iframe
+        src="https://www.youtube.com/embed/kcfs1-ryKWE?autoplay=1&mute=1"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      ></iframe>
 
-
-
-      
+      {/* Overlay oscuro */}
       <div className="absolute inset-0 bg-black bg-opacity-30" />
+
+      {/* Contenido sobre el video */}
       <motion.div
         className="relative z-10 text-center text-white px-4 max-w-3xl"
         initial={{ y: 30, opacity: 0 }}
@@ -380,6 +380,7 @@ function DescubrirSection() {
     </motion.section>
   );
 }
+
 
 /***************************************************
  * 6) SECCIÓN CONTACTO + FOOTER (#contacto)
