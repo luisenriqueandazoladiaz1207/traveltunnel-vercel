@@ -352,12 +352,11 @@ function DescubrirSection() {
       viewport={{ once: true }}
     >
     <video 
-  src="https://drive.google.com/uc?export=download&id=13bx6zDpiK5WNypaZbtarPFcDlZDwiRh1" 
+  src="https://www.dropbox.com/scl/fi/nhthmu80rvi8k6z0359qd/videotravel.mp4?rlkey=ew1sx9zpxl2855ctq1s6kllqd&st=wn7xwarq&dl=0" 
   className="absolute inset-0 w-full h-full object-cover"
   autoPlay
   loop
   muted
-  controls
 ></video>
 
       
