@@ -135,7 +135,7 @@ function TransparentNavbar({ auth }: { auth: any }) {
 function HeroSection({ auth }: { auth: any }) {
   const images = [
     'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/im3.png',
-    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img1.phg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img1.png',
     'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img11.png',
   ];
   const [current, setCurrent] = useState(0);
@@ -196,10 +196,10 @@ function HeroSection({ auth }: { auth: any }) {
  ***************************************************/
 function PaisesSection() {
   const countryImages = [
-    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ind.png',
-    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ita.png',
-    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/jap.png',
-    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/mex.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ind.jpg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ita.jpg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/jap.jpg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/mex.jpg',
   ];
   const [current, setCurrent] = useState(0);
   const length = countryImages.length;
@@ -275,13 +275,13 @@ function ElementosExperienciaSection() {
     {
       id: 2,
       titulo: 'TÚNELES',
-      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/tunnel.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/tunel.png',
       descripcion: 'Accede a culturas como México, Japón e India de forma inmersiva.',
     },
     {
       id: 3,
       titulo: 'PUZZLES',
-      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/piezas.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/Piezas.png',
       descripcion: 'Desafíos interactivos que estimulan el ingenio y promueven el aprendizaje activo.',
     },
     {
