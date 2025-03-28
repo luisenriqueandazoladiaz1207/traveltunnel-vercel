@@ -127,7 +127,7 @@ export default function Login({
                 <div className="mt-4">
   {/* ReCAPTCHA */}
   <ReCAPTCHA
-    sitekey="6LfY_gErAAAAAJ-QPToD0A1PWo_UPUgXlVp6wQMo"  // Aquí va tu clave pública de Google reCAPTCHA
+    sitekey="6LfOYgIrAAAAAOwY-E-rPRUGSzBskPKHv_pj-jtf"  // Aquí va tu clave pública de Google reCAPTCHA
     onChange={handleRecaptchaChange}
   />
 </div>
