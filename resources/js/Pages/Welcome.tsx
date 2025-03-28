@@ -339,7 +339,7 @@ function ElementosExperienciaSection() {
 }
 
 /***************************************************
- * 5) SECCIÓN DESCUBRIR (#descubrir)
+ * 5) SECCIÓN DESCUBRIR  (#descubrir)
  ***************************************************/
 function DescubrirSection() {
   return (
