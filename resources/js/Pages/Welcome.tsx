@@ -351,14 +351,16 @@ function DescubrirSection() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <video
-        src="https://drive.google.com/uc?export=download&id=13bx6zDpiK5WNypaZbtarPFcDlZDwiRh1
-"
-        className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-      />
+    <video 
+  src="https://drive.google.com/uc?export=download&id=13bx6zDpiK5WNypaZbtarPFcDlZDwiRh1" 
+  className="absolute inset-0 w-full h-full object-cover"
+  autoPlay
+  loop
+  muted
+  controls
+></video>
+
+      
       <div className="absolute inset-0 bg-black bg-opacity-30" />
       <motion.div
         className="relative z-10 text-center text-white px-4 max-w-3xl"
