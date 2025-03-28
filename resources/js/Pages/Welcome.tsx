@@ -351,12 +351,15 @@ function DescubrirSection() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-   <video 
-  src="https://www.dropbox.com/s/nhthmu80rvi8k6z0359qd/videotravel.mp4?raw=1" 
-  controls 
-  loop 
-  muted>
-</video>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/kcfs1-ryKWE?autoplay=1&mute=1"
+  frameBorder="0"
+  allow="autoplay; encrypted-media"
+  allowFullScreen
+></iframe>
+
 
 
       
