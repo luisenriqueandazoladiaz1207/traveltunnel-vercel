@@ -134,9 +134,9 @@ function TransparentNavbar({ auth }: { auth: any }) {
  ***************************************************/
 function HeroSection({ auth }: { auth: any }) {
   const images = [
-    '/imagenes/im3.png',
-    '/imagenes/img1.png',
-    '/imagenes/img11.png',
+    '/imagenes/im3.pnghttps://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/im3.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img1.phg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img11.png',
   ];
   const [current, setCurrent] = useState(0);
   const length = images.length;
@@ -196,10 +196,10 @@ function HeroSection({ auth }: { auth: any }) {
  ***************************************************/
 function PaisesSection() {
   const countryImages = [
-    '/imagenes/ind.jpg',
-    '/imagenes/ita.jpg',
-    '/imagenes/jap.jpg',
-    '/imagenes/mex.jpg',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ind.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/ita.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/jap.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/mex.png',
   ];
   const [current, setCurrent] = useState(0);
   const length = countryImages.length;
@@ -269,25 +269,25 @@ function ElementosExperienciaSection() {
     {
       id: 1,
       titulo: 'NOBI',
-      image: '/imagenes/nobi.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/nobi.png',
       descripcion: 'Nuestro robot guía que te da la bienvenida y te acompaña en cada túnel.',
     },
     {
       id: 2,
       titulo: 'TÚNELES',
-      image: '/imagenes/tunel.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/tunnel.png',
       descripcion: 'Accede a culturas como México, Japón e India de forma inmersiva.',
     },
     {
       id: 3,
       titulo: 'PUZZLES',
-      image: '/imagenes/piezas.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/piezas.png',
       descripcion: 'Desafíos interactivos que estimulan el ingenio y promueven el aprendizaje activo.',
     },
     {
       id: 4,
       titulo: 'ESCENARIOS',
-      image: '/imagenes/puente.png',
+      image: 'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/puente.png',
       descripcion: 'Espacios temáticos que evocan tradiciones y festividades de cada cultura.',
     },
   ];
