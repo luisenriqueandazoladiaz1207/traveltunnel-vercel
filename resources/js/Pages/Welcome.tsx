@@ -134,7 +134,7 @@ function TransparentNavbar({ auth }: { auth: any }) {
  ***************************************************/
 function HeroSection({ auth }: { auth: any }) {
   const images = [
-    '/imagenes/im3.pnghttps://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/im3.png',
+    'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/im3.png',
     'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img1.phg',
     'https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/img11.png',
   ];
