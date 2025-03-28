@@ -352,7 +352,8 @@ function DescubrirSection() {
       viewport={{ once: true }}
     >
       <video
-        src="https://drive.google.com/drive/folders/1sNqjYyHvQfda9JPbvp9I1puyz5KZ8nL2"
+        src="https://drive.google.com/uc?export=download&id=13bx6zDpiK5WNypaZbtarPFcDlZDwiRh1
+"
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         loop
