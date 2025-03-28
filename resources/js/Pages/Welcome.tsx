@@ -27,8 +27,8 @@ function TransparentNavbar({ auth }: { auth: any }) {
         {/* Logo + Nombre */}
         <div className="flex items-center space-x-2">
           <motion.img
-            src="/imagenes/TRAVEL.png"
-            alt="Travel Tunnel Logo"
+            src="https://raw.githubusercontent.com/luisenriqueandazoladiaz1207/traveltunnel-vercel/refs/heads/main/public/imagenes/TRAVEL.png"
+            alt="yo"
             className="w-10 h-10 object-cover"
             initial={{ rotate: -90 }}
             animate={{ rotate: 0 }}
